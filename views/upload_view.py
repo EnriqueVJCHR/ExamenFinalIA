@@ -15,7 +15,7 @@ class UploadView(ft.Container):
         self.padding = 50
         self.content = ft.Column(
                 controls=[
-                    ft.Text("Evaluador IA", style=TITLE_STYLE),
+                    ft.Text("Examen IA, Evaluador", style=TITLE_STYLE),
                     ft.Text("Sube un PDF para generar un examen", style=SUBTITLE_STYLE),
                     ft.Divider(height=20, color="transparent"),
                     get_neon_container(
