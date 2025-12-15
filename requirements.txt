@@ -1,0 +1,4 @@
+flet
+pypdf
+google-generativeai
+python-dotenv
